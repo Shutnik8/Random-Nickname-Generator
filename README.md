@@ -2,10 +2,6 @@
 
 This simple web tool allows you to generate random nicknames in English or Russian. It features a modern dark theme inspired by the design of the VK social network, with vibrant accents and a user-friendly interface.
 
-## Demo
-
-You can see the live demo of the application at [your GitHub Pages link](https://<your-github-username>.github.io/<your-repository-name>/).
-
 ## Features
 
 * **Language Selection:** Generates nicknames in either English or Russian.
