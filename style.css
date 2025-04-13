@@ -1,0 +1,110 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Современный шрифт VK */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #181818; /* Темный режим VK */
+    margin: 0;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.container {
+    background: linear-gradient(145deg, #222222, #1c1c1c); /* Плавный градиент фона */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 20px #131313, -10px -10px 20px #2d2d2d; /* Мягкая внутренняя тень */
+    text-align: center;
+    width: 450px;
+    max-width: 95%;
+}
+
+h1 {
+    color: #e0e0e0; /* Светлый текст заголовка */
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.controls {
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+label {
+    display: block;
+    color: #bdbdbd; /* Светло-серый цвет подписей */
+    font-size: 16px;
+    margin-bottom: 8px;
+    text-align: left;
+    font-weight: 500;
+}
+
+select,
+input[type="number"] {
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #2a2a2a; /* Темный фон полей */
+    color: #e0e0e0;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+select:focus,
+input[type="number"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #42a5f5; /* Яркий акцент при фокусе */
+}
+
+label input[type="checkbox"] {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+button {
+    padding: 16px 32px;
+    background: linear-gradient(145deg, #4fc3f7, #398ee5); /* Плавный градиент кнопки */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    box-shadow: 5px 5px 10px #2e2e2e, -5px -5px 10px #484848; /* Мягкая тень кнопки */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 7px 7px 14px #2e2e2e, -7px -7px 14px #484848;
+}
+
+.result {
+    margin-top: 35px;
+    padding: 25px;
+    background-color: #2a2a2a; /* Темный фон результата */
+    border-radius: 8px;
+    text-align: left;
+    border-left: 4px solid #42a5f5; /* Яркая акцентная полоса слева */
+}
+
+.result h2 {
+    color: #e0e0e0;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#nicknameResult {
+    font-size: 24px;
+    font-weight: bold;
+    color: #42a5f5; /* Яркий акцент для результата */
+    word-break: break-word;
+}
